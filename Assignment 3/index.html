@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Fontawesome cdn for icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>My Favorite Candy</title>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <h1 class="title"><img src="./img/logo.webp" alt="My Favorite Candy" class="candy-image" title="$50 Only"></h1>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#ingredients">Ingredients</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+      
+    <div class="section-main" id="overview">
+       <div class="section-box">
+    <br>
+        <h2>Overview</h2>
+       <div class="img-position">
+        <div class ="layout1">
+        <img src="img/imgcookies1.jpeg" alt="My Favorite Candy" class="candy-image" title="$50 Only">
+        <div class="overlay">Chocolate Nutella Cookies</div></div> 
+
+        <div class ="layout2"> 
+        <img src="img/imgcookies3.jpg" alt="My Favorite Candy" class="candy-image" title="$25 Only">
+        <div class="overlay">Nutella B-Ready</div></div> 
+
+        <div class ="layout3">
+        <img src="img/imgcookies2.jpeg" alt="My Favorite Candy" class="candy-image" title="$35 Only">
+        <div class="overlay">Chocolate Hazelnut Spread</div></div> 
+       </div><br>
+        </div>
+        <p>Nutella is a popular chocolate-hazelnut spread known for its rich and creamy texture. It's often used as a delicious topping for bread, toast, pancakes, waffles, and more. Nutella has a sweet and nutty flavor and is beloved by people of all ages. It can be enjoyed as a breakfast spread, a dessert ingredient, or a snack.</p>
+      </div>
+
+<div class="section-main" id="history">
+  <div class="section-box"><br>
+        <h2>History</h2>
+  </div>
+      <p>Nutella was created in the 1940s in Italy by Pietro Ferrero. Originally known as "Pasta Gianduja," it was a solid block of hazelnut and cocoa mixture. In the 1960s, the recipe was modified to its current creamy spreadable form and renamed "Nutella." It quickly gained popularity not only in Italy but around the world. Today,
+        Nutella is produced by Ferrero, a multinational chocolate company, and is sold in over 75 countries.</p>
+      </div>
+
+
+  <div class="section-main" id="ingredients">
+  <div class="section-box"><br>
+        <h2>Ingredients</h2>
+        </div>
+        <h3>The main ingredients in Nutella include:</h3>
+  <ul>
+    
+    <li>Sugar: Provides sweetness.</li>
+    <li>Palm Oil: Used for texture and consistency.</li>
+    <li>Hazelnuts: A key component, contributing to the nutty flavor.</li>
+    <li>Cocoa Solids: Give Nutella its chocolatey taste.</li>
+    <li>Skim Milk: Adds creaminess.</li>
+    <li>Lecithin (an emulsifier): Helps blend the ingredients together.</li>
+    <li>Vanillin (artificial flavor): Enhances the flavor.</li>
+</ul>
+</div>
+
+    <div class="section-main"  id="contact">
+      <div class="section-box">
+        <div  class="container">
+          <div class="contact-row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i> sameerlal2003@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i> +1 (437)-667-3427</p>
+              <div class="social-icons">
+                <a href="#" target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" target=”_blank”><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" target=”_blank”><i class="fa-brands fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="contact-right">
+              <form class="submit-to-google-sheet">
+                <input type="text" id="name" name="Name" placeholder="Enter your name" required>
+                
+                <input type="email" id="email" name="Email" placeholder="Enter your email"  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+                
+                <select id="product" name="Product" required>
+                  <option value="" disabled selected>Select Product</option>
+                  <option value="chocolate-nutella-cookies">Chocolate Nutella Cookies</option>
+                  <option value="nutella-b-ready">Nutella B-Ready</option>
+                  <option value="chocolate-hazelnut-spread">Chocolate Hazelnut Spread</option>
+                </select>
+                <input type="number" id="quantity" name="Quantity" placeholder="Enter quantity" min="0" required>
+                
+                <textarea id="message" name="Message" rows="3" placeholder="Tell us your favorite candies, special requests, etc."></textarea>
+                
+                <input type="text" id="price" name="Price" placeholder="Enter price" pattern="^\d+(\.\d{1,2})?$" title="Enter a valid price (e.g., 10.99)" required>
+   
+                <button type="submit" class="btn btn2">Order Now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section> 
+      
+        
+      <footer>
+        <div class="footer">
+          <div class="row">
+            <div class="icons">
+              <ul>
+                <li class="instagram"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="facebook"><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                <li class="google"><a href="#"><i class="fa fa-google fa-2x"></i></a></li>
+                <li class="twitter"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+              </ul>
+            </div>
+          </div><br> <br>
+            
+            <nav>
+              <div class="row">
+                <p>Got a problem? Call our IT services and centres to solve the issue.</p>
+                   Privacy Policy
+                   | Terms of Use
+                   | Cookie Policy
+              </div>
+            </nav>
+              <div class="row">
+                 <small>Copyright © @Ferrero 2023 All rights reserved | This is Nutella official
+                  homepage.</small>
+              </div>
+        </div>
+      </footer>
+</body>
+</html>
